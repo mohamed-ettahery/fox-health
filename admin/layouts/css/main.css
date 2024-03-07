@@ -1,0 +1,555 @@
+
+/*Start Dashboard*/
+.dashboard .link-view-boxes
+{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    border-top: 1px solid #ff4267;
+    padding-left: 17%;
+    color: #FFF;
+    background: #ff4267;
+    border-radius: 9px 0 0;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+.dashboard .link-view-boxes:hover
+{
+    text-decoration: none;
+    color: #fff;
+}
+.dashboard .link-view-boxes i
+{
+    position: relative;
+    right: -60%;
+}
+.dashboard .link-view-boxes:hover .view-ch-icon
+{
+    animation: bounce .3s infinite;
+}
+@keyframes bounce
+{
+    0%{
+        right: -60%;
+    }
+    50%{
+        right: -65%;
+    }
+    100%
+    {
+        right: -60%;
+    }
+}
+.dashboard .card .card-chart
+{
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+}
+.dashboard .card .card-chart .chart-box #piechart_3d
+{
+    position: relative;
+    left: -27%;
+}
+.dashboard .chart-box #piechart_3d svg>g:first-of-type
+{
+    /* display: none; */
+}
+.dashboard .card-last-orders
+{
+    height: 450px;
+}
+.dashboard .card-last-orders .card-body
+{
+    height: 20em;
+    overflow: hidden;
+}
+.dashboard .card-last-orders .card-body table
+{
+}
+.dashboard .card-last-orders .card-body table a
+{
+    position: relative;
+    top: -8px;
+}
+.dashboard .card-last-orders .card-body table tr th,.dashboard .card-last-orders .card-body table tr td
+{
+    padding-top: 4%;
+}
+.dashboard .card-last-orders .card-body table .completed,.dashboard .card-last-orders .card-body table .waiting,.dashboard .card-last-orders .card-body table .pending,.dashboard .card-last-orders .card-body table .refunde
+{
+    padding: 12px;
+    border-radius: 25px;
+    color: #FFF;
+    text-transform: capitalize;
+}
+.dashboard .card-last-orders .card-body table .completed
+{
+    background: #2acb91;
+}
+.dashboard .card-last-orders .card-body table .waiting
+{
+    background: #fd815c;
+
+}
+.dashboard .card-last-orders .card-body table .pending
+{
+    background: #f6c23e;
+}
+.dashboard .card-last-orders .card-body table .refunde
+{
+    background: #dd0a34;
+}
+
+.dashboard .last-users-card
+{
+    
+}
+.dashboard .last-users-card .card-body
+{
+    padding: 4px;
+}
+.dashboard .last-users-card .card-body .box-user
+{
+    margin-bottom: 12px;
+}
+.dashboard .last-users-card .card-body .box-user .username,.dashboard .last-users-card .card-body .box-user .status,.dashboard .last-users-card .card-body .box-user .btn
+{
+    margin-top: 35%;
+}
+.dashboard .last-users-card .card-body .box-user img
+{
+    width: 90%;
+    margin-top: 12px;
+}
+.dashboard .last-users-card .card-body .box-user .username
+{
+    width: 125%;
+}
+.dashboard .last-users-card .card-body .box-user .status
+{
+    font-weight: 700;
+    width: 110%;
+}
+.dashboard .last-users-card .card-body .box-user .btn
+{
+
+}
+.dashboard .last-users-card .card-body .box-user .active
+{
+    color: #2acb91;
+}
+.dashboard .last-users-card .card-body .box-user .pending
+{
+    color: #ff8100;
+}
+.dashboard .last-users-card .card-body .box-user .disabled
+{
+    color: #ff0939;
+}
+
+
+.dashboard .last-comments-card
+{
+
+}
+.dashboard .last-comments-card .card-body
+{
+
+}
+.dashboard .last-comments-card .card-body .box-comment
+{
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.dashboard .last-comments-card .card-body .box-comment img
+{
+    width: 100%;
+}
+.dashboard .last-comments-card .card-body .box-comment .username
+{
+    font-size: 12px;
+}
+.dashboard .last-comments-card .card-body .box-comment .comment
+{
+    background: linear-gradient(to top, #ff9966, #ff5e62);
+    padding: 12px 14px 0;
+    border-radius: 20px;
+    color: #FFF;
+}
+.dashboard .last-comments-card .card-body .box-comment .comment::before
+{
+    content: "";
+    width: 0;
+    height: 0;
+    border-width: 15px;
+    border-style: solid;
+    border-color: transparent #ff7664 transparent transparent;
+    position: absolute;
+    top: 17%;
+    left: -4%;
+}
+.dashboard .last-comments-card .card-body .box-comment .comment .paragraph
+{
+    max-height: 70px;
+    overflow: hidden;
+}
+.dashboard .last-comments-card .card-body .box-comment .comment .date
+{
+    float: right;
+    font-size: 12px;
+}
+.dashboard .last-comments-card .card-body .box-comment .status
+{
+    width: 110%;
+}
+.dashboard .last-comments-card .card-body .box-comment .box-actions a
+{
+    position: absolute;
+    right: -140px;
+    /* right: 0%; */
+    bottom: 10%;
+    width: 80px;
+    height: 30px;
+    font-size: 12px;
+    transition: .5s ease-in-out;
+}
+/*End Dashboard*/
+
+/*Start Products*/
+    /*Start View Products*/
+    .products .view-products
+    {
+        
+    }
+    .products .view-products .table-section
+    {
+        max-height: 500px;
+        overflow: auto;
+    }
+    .products .view-products .table-view-products img
+    {
+        width: 75px;
+    }
+    .products .view-products .table-view-products textarea
+    { 
+        border: none;
+        background: none;
+        color: inherit;
+        width: 90%;
+    }
+    .products .view-products .table-view-products .btn
+    {
+        width: 45%;
+        margin-top: 5px;
+    }
+
+    .products .view-products .add-new-box
+    {
+        margin-top: 30px;
+        text-align: center;
+    }
+    .products .view-products .add-new-box a
+    {
+
+    }
+    /*End View Products*/
+
+    /*Start Add Products*/
+    .products .add-products
+    {
+        
+    }
+    .products .add-products form
+    {
+
+    }
+    .products .add-products form .row
+    {
+    }
+    .products .add-products form .row .form-control
+    {
+        margin-bottom: 20px;
+    }
+    .products .add-products form .row .imgFile-label
+    {
+        width: 85%;
+        padding: 6px;
+        text-align: center;
+        background: linear-gradient(to top, #ff4169, #fd1d1d, #fcb045);
+        color: #FFF;
+        border-radius: 7px;
+        cursor: pointer;
+    }
+    .products .add-products form .row .imgFile-label:hover
+    {
+        background: linear-gradient(to bottom, #ff4169, #fd1d1d, #fcb045);
+    }
+    .products .add-products form .row .new-img-insert
+    {
+        width: 48%;
+        position: relative;
+        left: 18%;
+        cursor: pointer;
+    }
+    .products .add-products form .row .add-btn
+    {
+        margin-top: 30px;
+        width: 100%;
+        font-weight: 700;
+        letter-spacing: 1px;
+        background: linear-gradient(to top, #1fc3b6, #38ef7d);
+    }
+    .products .add-products form .row .add-btn:hover
+    {
+        background: linear-gradient(to bottom, #1fc3b6, #38ef7d);
+    }
+    .tox-statusbar__branding
+    {
+        display: none;
+    }
+    /*End Add Products*/
+
+    /*Start Edit Products*/
+    .products .edit-products
+    {
+        
+    }
+    .products .edit-products form
+    {
+
+    }
+    .products .edit-products form .row
+    {
+    }
+    .products .edit-products form .row .form-control
+    {
+        margin-bottom: 20px;
+    }
+    .products .edit-products form .row .imgFile-label
+    {
+        width: 85%;
+        padding: 6px;
+        text-align: center;
+        background: linear-gradient(to top, #ff4169, #fd1d1d, #fcb045);
+        color: #FFF;
+        border-radius: 7px;
+        cursor: pointer;
+    }
+    .products .edit-products form .row .imgFile-label:hover
+    {
+        background: linear-gradient(to bottom, #ff4169, #fd1d1d, #fcb045);
+    }
+    .products .edit-products form .row .new-img-insert
+    {
+        width: 48%;
+        position: relative;
+        left: 18%;
+        cursor: pointer;
+    }
+    .products .edit-products form .row .edit-btn
+    {
+        margin-top: 30px;
+        width: 100%;
+        font-weight: 700;
+        letter-spacing: 1px;
+        background: linear-gradient(to top, #1fc3b6, #38ef7d);
+    }
+    .products .edit-products form .row .edit-btn:hover
+    {
+        background: linear-gradient(to bottom, #1fc3b6, #38ef7d);
+    }
+    /*End Edit Products*/
+
+/*End Products*/
+
+/*Start Categories*/
+  /*Start View Categories*/
+  .categories .view-cats
+  {
+      
+  }
+  .categories .view-cats .table-section
+  {
+      max-height: 500px;
+      overflow: auto;
+  }
+  .categories .view-cats .table-view-cats textarea
+  { 
+      border: none;
+      background: none;
+      color: inherit;
+      width: 90%;
+  }
+  .categories .view-cats .table-view-cats .btn
+  {
+      width: 45%;
+      margin-top: 5px;
+  }
+
+  .categories .view-cats .add-new-box
+  {
+      margin-top: 30px;
+      text-align: center;
+  }
+  .categories .view-cats .add-new-box a
+  {
+
+  }
+  /*End View Categories*/
+
+  /* Start Add Category */
+  .categories .add-category
+  {
+      
+  }
+  .categories .add-category form input
+  {
+    width: 70%;
+    margin: 26px auto;
+  }
+  .categories .add-category form .add-btn
+  {
+      
+    display: block;
+    font-weight: 700;
+    letter-spacing: 1px;
+    background: linear-gradient(to top, #1fc3b6, #38ef7d);
+    width: 70%;
+    margin: 26px auto;
+  }
+  .categories .add-category form .add-btn:hover
+  {
+    background: linear-gradient(to bottom, #1fc3b6, #38ef7d);
+  }
+  /* End Add Category */
+  /* Start Edit Category */
+  .categories .edit-category
+  {
+      
+  }
+  .categories .edit-category form input
+  {
+    width: 70%;
+    margin: 26px auto;
+  }
+  .categories .edit-category form .edit-btn
+  {
+      
+    display: block;
+    font-weight: 700;
+    letter-spacing: 1px;
+    background: linear-gradient(to top, #1fc3b6, #38ef7d);
+    width: 70%;
+    margin: 26px auto;
+  }
+  .categories .edit-category form .edit-btn:hover
+  {
+    background: linear-gradient(to bottom, #1fc3b6, #38ef7d);
+  }
+  /* End Edit Category */
+/*End Categories*/
+
+/*Start Clients*/
+  /*Start View Clients*/
+  .clients .view-clients
+  {
+      
+  }
+  .clients .view-cats .table-section
+  {
+      max-height: 500px;
+      overflow: auto;
+  }
+  .clients .view-clients .table-view-clients img
+  {
+    width: 60px;
+    border-radius: 50%;
+  }
+  .clients .view-clients .table-view-clients .btn
+  {
+    width: 25%;
+    margin-top: 5px;
+  }
+
+  .clients .view-clients .add-new-box
+  {
+      margin-top: 30px;
+      text-align: center;
+  }
+  /*End View Clients*/
+
+  /*Start View Client Profile*/
+  .clients .view-profile
+  {
+    background: white;
+    margin: 20px 0;
+    border-radius: 15px;
+  }
+  .clients .view-profile .img-box
+  {
+    width: 100%;
+    text-align: center;
+    background: linear-gradient(to top, #ff4838, #ff416c1c);
+    position: relative;  
+    border: 5px solid #f8f9fc;
+    border-radius: 0 0 20px 20px;
+  }
+
+  .clients .view-profile .img-box img
+  {
+    width: 20%;
+    border-radius: 50%;
+    position: relative;
+    top: 50px;
+  }
+  .clients .view-profile .fullname-box 
+  {
+    text-align: center;
+    width: 100%;
+    margin-top: 60px;
+    margin-bottom: 30px;
+  }
+  .clients .view-profile .fullname-box h3
+  {
+  }
+  .clients .view-profile .information-box
+  {
+  }
+  .clients .view-profile .information-box ul
+  {
+  }
+  .clients .view-profile .information-box ul li
+  {
+    margin-bottom: 10px;
+    color: #2e2e2e;
+  }
+  .clients .view-profile .information-box ul li i
+  {
+    color: #18b6f3;
+    margin-right: 15px;
+  }
+  .clients .view-profile .chart-box
+  {
+    margin-top: -25px;
+  }
+  .clients .view-profile .btns-box
+  {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .clients .view-profile .btns-box .btn
+  {
+      width: 8%;
+  }
+  /*Start View Client Profile*/
+/*End Clients*/
+
+/* Start Delivery */
+.add-delivery input, .edit-delivery input
+{
+    margin-bottom: 20px;
+}
+/* End Delivery */
